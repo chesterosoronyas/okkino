@@ -1,0 +1,198 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@nestjs/common": "10.3.0",
+    "@nestjs/core": "10.3.0",
+    "@nestjs/platform-express": "10.3.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.0.0",
+    "tslib": "^2.3.0",
+    "@nestjs/schematics": "10.1.0",
+    "@nestjs/testing": "10.3.0",
+    "@nrwl/eslint-plugin-nx": "17.2.8",
+    "@nrwl/jest": "17.2.8",
+    "@nrwl/linter": "17.2.8",
+    "@nrwl/nest": "17.2.8",
+    "@nrwl/node": "17.2.8",
+    "@nrwl/workspace": "17.2.8",
+    "@types/jest": "29.4.4",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "6.18.1",
+    "@typescript-eslint/parser": "6.18.1",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "9.1.0",
+    "jest": "29.4.3",
+    "jest-environment-jsdom": "29.4.3",
+    "nx": "17.2.8",
+    "prettier": "^2.6.2",
+    "ts-jest": "29.1.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "1659929058009100827"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11608181557323256120"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "7593645149760784194"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "2950215254536237782"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "2772139696069860212"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "5883793389689497779"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11300304833173538546"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8967466193233711056"
+      },
+      {
+        "file": "package.json",
+        "hash": "18363618072942215035"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7788264000166780777"
+      }
+    ],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/api/jest.config.ts",
+          "hash": "6009935630386182799"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "16735840553075193094"
+        },
+        {
+          "file": "apps/api/src/app/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/app/app.controller.spec.ts",
+          "hash": "15859953346642325947",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "3163250445227373966",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.spec.ts",
+          "hash": "6332748756781370420",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.ts",
+          "hash": "1737352191736262209",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/api/src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "apps/api/src/environments/environment.ts",
+          "hash": "1135292433917692033"
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "13471073668411303754",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "18146536384686769023"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "9214820933160915425"
+        },
+        {
+          "file": "apps/api/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ]
+    }
+  }
+}

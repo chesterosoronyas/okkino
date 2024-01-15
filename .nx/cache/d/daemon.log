@@ -1,0 +1,20 @@
+[NX Daemon Server] - 2024-01-15T09:53:19.557Z - Started listening on: /tmp/445af52d311607bd761e/d.sock
+[NX Daemon Server] - 2024-01-15T09:53:19.559Z - [WATCHER]: Subscribed to changes within: /home/test/Source Code/okkino (native)
+[NX Daemon Server] - 2024-01-15T09:53:19.564Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-15T09:53:19.565Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-01-15T09:53:19.568Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-01-15T09:53:19.569Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-01-15T09:53:19.569Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-15T09:53:19.569Z - [REQUEST]: 
+[NX Daemon Server] - 2024-01-15T09:53:19.673Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-01-15T09:53:19.675Z - Time taken for 'total for creating and serializing project graph' 105.23058500140905ms
+[NX Daemon Server] - 2024-01-15T09:53:19.675Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-15T09:53:19.675Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-01-15T09:53:19.675Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 106. Response time: 2.
+[NX Daemon Server] - 2024-01-15T09:53:19.679Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-15T09:53:19.682Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-15T09:53:19.684Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-01-15T09:53:19.684Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-01-15T09:53:19.685Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-01-15T09:53:19.685Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-01-15T09:53:19.685Z - Handled REQUEST_FILE_DATA. Handling time: 0. Response time: 0.
